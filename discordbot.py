@@ -1,8 +1,5 @@
 #導入Discord.py
 import discord
-import os
-
-TOKEN = os.environ['TOKEN']
 #client是我們與Discord連結的橋樑
 client = discord.Client()
 
@@ -28,4 +25,4 @@ async def on_message(message):
       else:
         await message.channel.send(tmp[1])
 
-client.run('你的機器人TOKEN') #TOKEN在剛剛Discord Developer那邊「BOT」頁面裡面
+client.run('OTIwMzI1NDI3MTY2MzE0NTI2.Ybit2A.XOjkAuaG_A72_5LYcxKSYDNCZsc') #TOKEN在剛剛Discord Developer那邊「BOT」頁面裡面
